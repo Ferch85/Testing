@@ -1,0 +1,30 @@
+package Section05;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.junit.Assert;
+
+public class L09_Asserts {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\fsoto\\Desktop\\Resources\\drivers_v1\\chromedriver.exe");
+		
+		WebDriver driver = new ChromeDriver();
+		
+		driver.manage().window().maximize();
+		
+		driver.get("https://www.automationtesting.co.uk");
+		
+		driver.getTitle();
+		
+		String pageTitle = driver.getTitle();
+		
+		Assert.assertEquals("Homepage", pageTitle);
+		
+		
+		
+		
+	}
+
+}

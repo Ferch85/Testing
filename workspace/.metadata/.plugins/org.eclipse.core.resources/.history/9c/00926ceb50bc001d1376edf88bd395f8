@@ -1,0 +1,40 @@
+package Section08;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.PageLoadStrategy;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class L06_Iframes {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\fsoto\\Desktop\\Resources\\drivers_v1\\chromedriver.exe");
+		
+		ChromeOptions options = new ChromeOptions();
+		options.setPageLoadStrategy(PageLoadStrategy.EAGER);
+		
+		WebDriver driver = new ChromeDriver(options);	
+		
+		driver.manage().window().maximize();
+		
+		driver.get("https://www.automationtesting.co.uk/iframes.html");
+		
+		driver.switchTo().frame(0);
+		
+		driver.findElement(By.xpath("/html/body/div[2]/div/div/a[2]")).click();
+		
+		driver.findElement(By.cssSelector(".toggle")).click();
+		
+		
+		
+		
+	}
+
+}
