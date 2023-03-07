@@ -14,5 +14,10 @@
 	<classpathentry kind="lib" path="C:/Users/fsoto/Desktop/Resources/selenium-jar/libs/okhttp-3.11.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/fsoto/Desktop/Resources/selenium-jar/libs/okio-1.14.0.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/fsoto/Desktop/Resources/commons-io-2.11.0/commons-io-2.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fsoto/Desktop/Resources/commons-io-2.11.0/commons-io-2.11.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fsoto/Desktop/Resources/commons-io-2.11.0/commons-io-2.11.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fsoto/Desktop/Resources/commons-io-2.11.0/commons-io-2.11.0-tests.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fsoto/Desktop/Resources/commons-io-2.11.0/commons-io-2.11.0-test-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

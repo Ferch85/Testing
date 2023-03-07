@@ -1,0 +1,49 @@
+package Section09;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.PageLoadStrategy;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class L03_Cookies {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\fsoto\\Desktop\\Resources\\drivers_v1\\chromedriver.exe");		
+
+		WebDriver driver = new ChromeDriver();
+		
+		driver.manage().window().maximize();		
+		driver.get("http://teststore.automationtesting.co.uk/");	
+		
+		driver.findElement(By.cssSelector("[title] .hidden-sm-down")).click();
+		
+		driver.findElement(By.cssSelector("section input[name='email']")).sendKeys("testz@test.com");
+		
+		driver.findElement(By.cssSelector("[name='password']")).sendKeys("elcapo85");
+		
+		driver.findElement(By.cssSelector("[data-link-action='sign-in']")).click();
+		
+		driver.findElement(By.cssSelector("#_desktop_top_menu .category:nth-of-type(1) [data-depth='0']")).click();
+		
+		driver.findElement(By.cssSelector("[alt='Hummingbird printed t-shirt']")).click();
+		
+		driver.findElement(By.cssSelector("[data-button-action]")).click();
+		Thread.sleep(3000);
+		driver.findElement(By.cssSelector(".btn.btn-secondary")).click();
+		
+		
+		driver.manage().deleteAllCookies();
+	}
+
+}
