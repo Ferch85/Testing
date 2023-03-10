@@ -1,0 +1,9 @@
+package Section11;
+
+public class L02_TestngInstall {
+
+	public void helloWorld() {
+		System.out.println("Hello World");
+	}
+		
+}

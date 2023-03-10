@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="elcapo85"/>
+  <parameter name="email" value="testz@test.com"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Section11.L12_DataProvider">
+        <methods>
+          <include name="end"/>
+          <include name="singnin" invocation-numbers="1 2"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Section11.L12_DataProvider -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
