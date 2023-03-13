@@ -21,7 +21,7 @@ public class L12_DataProvider {
 		driver = new ChromeDriver();		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 		
 	}
 	
@@ -52,10 +52,10 @@ public class L12_DataProvider {
 		driver.findElement(By.cssSelector("[name='password']")).sendKeys(password);
 		driver.findElement(By.cssSelector("[data-link-action='sign-in']")).click();
 		System.out.println("User has logged in");
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 		driver.findElement(By.cssSelector(".hidden-sm-down.logout")).click();
 		System.out.println("User has logged out");
-		Thread.sleep(2000);		
+		//Thread.sleep(2000);		
 	}
 	
 	@AfterSuite
