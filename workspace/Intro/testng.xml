@@ -5,7 +5,7 @@
 <parameter name="password" value="elcapo85" />
   <test thread-count="5" name="Test">  
 	<classes>
-		<class name="Section11.L12_DataProvider"></class>		
-	</classes>
+		<class name="Section12.L04_Login"></class>
+		<class name="Section12.L04_Login2"></class></classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

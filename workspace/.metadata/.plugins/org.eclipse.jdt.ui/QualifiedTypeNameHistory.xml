@@ -6,4 +6,8 @@
     <fullyQualifiedTypeName name="org.testng.annotations.Listeners"/>
     <fullyQualifiedTypeName name="Section11.L17_TestClass"/>
     <fullyQualifiedTypeName name="Section11.L17_ITestListener"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
 </qualifiedTypeNameHistroy>
