@@ -6,8 +6,16 @@
     <fullyQualifiedTypeName name="org.testng.annotations.Listeners"/>
     <fullyQualifiedTypeName name="Section11.L17_TestClass"/>
     <fullyQualifiedTypeName name="Section11.L17_ITestListener"/>
-    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
     <fullyQualifiedTypeName name="java.util.Properties"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+    <fullyQualifiedTypeName name="base.BasePage"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.BeforeTest"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.AfterTest"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+    <fullyQualifiedTypeName name="pageObjects.Homepage"/>
+    <fullyQualifiedTypeName name="pageObjects.ShopHomepage"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;Resources&apos; to &apos;resources&apos;&#x0D;&#x0A;- Original project: &apos;liveproject1&apos;&#x0D;&#x0A;- Original element: &apos;liveproject1/src/main/java/Resources&apos;&#x0D;&#x0A;- Renamed element: &apos;liveproject1/src/main/java/resources&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;Resources&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;Resources" name="resources" qualified="false" references="true" stamp="1678995868532" textual="false" version="1.0"/>
+</session>

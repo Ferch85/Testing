@@ -1,7 +1,0 @@
-package Section12;
-
-import org.openqa.selenium.WebDriver;
-
-public class L04_BasePage {
-	public static WebDriver driver;
-}

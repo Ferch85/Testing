@@ -1,0 +1,14 @@
+package uk.com.automationtesting;
+
+import java.io.IOException;
+
+import base.BasePage;
+
+public class OrderCompleteTest extends BasePage {
+
+	public OrderCompleteTest() throws IOException {
+		super();
+	}
+	
+	
+}
